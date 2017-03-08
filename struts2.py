@@ -112,7 +112,7 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
 
     if not options.filename and not options.url:
-        print "[!] Please set your target using -f or -u option."
+        print "[!] Please set your target using -f or -u option or see the usage with -h option."
         sys.exit()
 
     if options.filename and options.url:
